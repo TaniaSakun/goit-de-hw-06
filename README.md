@@ -56,8 +56,8 @@ Batch: 101
 
 |window|  sensor_id|avg_temperature| avg_humidity| 
 | ------- | ------- | ------- | ------- |
-| {2025-02-01 21:57...}|1|36.808||49.38|
-| {2025-02-01 21:57...}|1|36.808||49.38|
+| {2025-02-01 21:57...}|1|36.808|49.38|
+| {2025-02-01 21:57...}|1|36.808|49.38|
 
 Batch: 102
 
@@ -68,9 +68,15 @@ Batch: 102
 
 
 **Task 5.**
+
 Subscribed to 'tania_building_sensors'
-{'window':{'start':'2025-02-02T22:30:00.000+00:00','end':'2025-02-02T22:31:00.000+00:00'},'t_avg':42.95,'h_avg':62.6,'code':'104','message':'It\'s too hot','timestamp':'2025-02-02 22:30:51.907777'}
-{'window':{'start':'2025-02-02T22:30:00.000+00:00','end':'2025-02-02T22:31:00.000+00:00'},'t_avg':36.28,'h_avg':48.4,'code':'104','message':'It\'s too hot','timestamp':'2025-02-02 22:30:59.907777'}
-{'window':{'start':'2025-02-02T22:30:00.000+00:00','end':'2025-02-02T22:31:00.000+00:00'},'t_avg':38.4,'h_avg':74.55,'code':'104','message':'It\'s too hot','timestamp':'2025-02-02 22:31:05.907777'}
-{'window':{'start':'2025-02-02T22:30:00.000+00:00','end':'2025-02-02T22:31:00.000+00:00'},'t_avg':38.28,'h_avg':31.01,'code':'104','message':'It\'s too hot','timestamp':'2025-02-02 22:31:11.907777'}
-{'window':{'start':'2025-02-02T22:30:00.000+00:00','end':'2025-02-02T22:31:00.000+00:00'},'t_avg':35.17,'h_avg':24.0,'code':'103','message':'It\'s too cold','timestamp':'2025-02-02 22:30:57.907777'}
+
+Received message: {'window': {'start': '2025-01-10T23:36:30.000+02:00' 36:30.000+02:00', 'end': ' 'avg_temperature': 'avg_temperature': 'avg_humidity': 'avg_humidity': 'code': 'code': 'message': 'message': "It's too wet", 'timestamp': '2025:40:55.537+02:00'} 
+
+Received message: {'window': {'start': 2025-02-02T22:30:00.000+00:00', 'end': '2025-01-10T23:41:00.000+02:00'}, 'avg_temperature': 33.04333333333333, 'avg_humidity': 37.973333333333336, 'code': '101', "message': "It's too dry", 'timestamp’:’2025:40:55.537+02:00’} 
+
+Received message: {'window': {'start': '22025-02-02T22:30:00.000+00:00', 'end': '2025-01-10T23:41:00.000+02:00'}, 'avg_temperature': 37.848, 'avg_humidity': 35.326, 'code': '101', 'message': "It's too dry", 'timestamp': '2025:40:55.537+02:00’ 
+
+Received message: {'window': {'start': '2025-02-02T22:30:00.000+00:00', 'end': '2025-01-10T23:43:00.000+02:00'}, 'avg-temperature': 35.07055555555556, 'avg_humidity': 39.80722222222223, 'code': '101', 'message': "It's too dry", 'timestamp’:’2025:40:55.537+02:00’} 
+
+Received message: {'window': {'start': '2025-02-02T22:30:00.000+00:00', 'end': '2025-01-10T23:43:30.000+02:00'}, 'avg_temperature': 32.55, 'avg_humidity': 38.3375, 'code': '101', 'message': "It's too dry", 'timestamp': '2025:40:55.537+02:00' 
